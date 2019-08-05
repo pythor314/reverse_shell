@@ -165,8 +165,7 @@ break  \t get back to interactive shell
 		else:
 			try:
 				sender(cmd,c)
-			except Exception as e:
-				print 'line 146'+str(e)
+			except:
 				break
 
 
